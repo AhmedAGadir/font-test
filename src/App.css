@@ -1,0 +1,218 @@
+@font-face {
+	font-family: "SF Arabic";
+	src: url("/fonts/SF-Arabic.ttf") format("ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SF Pro";
+	src: url("/fonts/SF-Pro.ttf") format("ttf");
+}
+
+body {
+	/*  ✅ This is what we need ✅  */
+	font-family: "SF Pro", "SF Arabic", sans-serif;
+}
+
+/* ❌ WOFF DOESNT HAVE ALL THE WEIGHTS FOR SOME REASON ❌*/
+@font-face {
+	font-family: "SF Arabic Woff";
+	src: url("/fonts/SF-Arabic.woff") format("woff"),
+		url("/fonts/SF-Arabic.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* ==================================================== */
+/* ==================================================== */
+/* ==================================================== */
+/* ======== IGNORE EVERYTHING BELOW HERE ==============  */
+/* ==================================================== */
+/* ==================================================== */
+/* ==================================================== */
+
+/* Automatically switch to SF Arabic for Arabic text */
+/* :lang(ar) {
+	font-family: "SF Arabic", "SF Pro", sans-serif;
+} */
+
+/* SF Pro Text Font Face Definitions */
+
+/* 900 - Black */
+@font-face {
+	font-family: "SF Pro Text";
+	src: url("/fonts/SF-Pro-Text-Black.woff2") format("woff2");
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: "SF Pro Text";
+	src: url("/fonts/SF-Pro-Text-BlackItalic.woff2") format("woff2");
+	font-weight: 900;
+	font-style: italic;
+}
+
+/* 800 - Heavy */
+@font-face {
+	font-family: "SF Pro Text";
+	src: url("/fonts/SF-Pro-Text-Heavy.woff2") format("woff2");
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: "SF Pro Text";
+	src: url("/fonts/SF-Pro-Text-HeavyItalic.woff2") format("woff2");
+	font-weight: 800;
+	font-style: italic;
+}
+
+/* 700 - Bold */
+@font-face {
+	font-family: "SF Pro Text";
+	src: url("/fonts/SF-Pro-Text-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "SF Pro Text";
+	src: url("/fonts/SF-Pro-Text-BoldItalic.woff2") format("woff2");
+	font-weight: 700;
+	font-style: italic;
+}
+
+/* 600 - Semibold */
+@font-face {
+	font-family: "SF Pro Text";
+	src: url("/fonts/SF-Pro-Text-Semibold.woff2") format("woff2");
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: "SF Pro Text";
+	src: url("/fonts/SF-Pro-Text-SemiboldItalic.woff2") format("woff2");
+	font-weight: 600;
+	font-style: italic;
+}
+
+/* 500 - Medium */
+@font-face {
+	font-family: "SF Pro Text";
+	src: url("/fonts/SF-Pro-Text-Medium.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: "SF Pro Text";
+	src: url("/fonts/SF-Pro-Text-MediumItalic.woff2") format("woff2");
+	font-weight: 500;
+	font-style: italic;
+}
+
+/* 400 - Regular */
+@font-face {
+	font-family: "SF Pro Text";
+	src: url("/fonts/SF-Pro-Text-Regular.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "SF Pro Text";
+	src: url("/fonts/SF-Pro-Text-RegularItalic.woff2") format("woff2");
+	font-weight: 400;
+	font-style: italic;
+}
+
+/* 300 - Light */
+@font-face {
+	font-family: "SF Pro Text";
+	src: url("/fonts/SF-Pro-Text-Light.woff2") format("woff2");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: "SF Pro Text";
+	src: url("/fonts/SF-Pro-Text-LightItalic.woff2") format("woff2");
+	font-weight: 300;
+	font-style: italic;
+}
+
+/* 200 - Ultralight */
+@font-face {
+	font-family: "SF Pro Text";
+	src: url("/fonts/SF-Pro-Text-Ultralight.woff2") format("woff2");
+	font-weight: 200;
+	font-style: normal;
+}
+@font-face {
+	font-family: "SF Pro Text";
+	src: url("/fonts/SF-Pro-Text-UltralightItalic.woff2") format("woff2");
+	font-weight: 200;
+	font-style: italic;
+}
+
+/* 100 - Thin */
+@font-face {
+	font-family: "SF Pro Text";
+	src: url("/fonts/SF-Pro-Text-Thin.woff2") format("woff2");
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: "SF Pro Text";
+	src: url("/fonts/SF-Pro-Text-ThinItalic.woff2") format("woff2");
+	font-weight: 100;
+	font-style: italic;
+}
+
+.sf-pro {
+	font-family: "SF Pro";
+}
+
+.sf-arabic {
+	font-family: "SF Arabic";
+}
+
+.w-900 {
+	font-weight: 900;
+}
+
+.w-800 {
+	font-weight: 800;
+}
+
+.w-700 {
+	font-weight: 700;
+}
+
+.w-600 {
+	font-weight: 600;
+}
+
+.w-500 {
+	font-weight: 500;
+}
+
+.w-400 {
+	font-weight: 400;
+}
+
+.w-300 {
+	font-weight: 300;
+}
+
+.w-200 {
+	font-weight: 200;
+}
+
+.w-100 {
+	font-weight: 100;
+}
+
+.test2 {
+	font-family: "SF Pro Text";
+}
+
+.test3 {
+	font-family: "SF Pro Text";
+}
